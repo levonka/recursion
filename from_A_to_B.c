@@ -6,14 +6,14 @@
 /*   By: agottlie <agottlie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/23 14:53:56 by agottlie          #+#    #+#             */
-/*   Updated: 2018/12/24 11:46:38 by agottlie         ###   ########.fr       */
+/*   Updated: 2019/01/06 08:58:56 by agottlie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
 // recursive solution
-void	ft_somewhat(int A, int B)
+void	ft_from_A_to_B(int A, int B)
 {
 	printf("%d\n", A);
 	if (A == B)
@@ -40,7 +40,7 @@ void	ft_somewhat(int A, int B)
 
 int		main()
 {
-	ft_somewhat(15, 10);
+	ft_from_A_to_B(15, 10);
 	return 0;
 }
 

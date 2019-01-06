@@ -6,23 +6,23 @@
 /*   By: agottlie <agottlie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/23 14:53:56 by agottlie          #+#    #+#             */
-/*   Updated: 2018/12/26 16:57:10 by agottlie         ###   ########.fr       */
+/*   Updated: 2019/01/06 08:58:31 by agottlie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
 // first solution
-/*void	ft_somewhat(int n)
+void	ft_from_n_to_1(int n)
 {
 	printf("%d\n", n);
 	if (n == 1)
 		return ;
 	ft_somewhat(n - 1);
-}*/
+}
 
 // second solution
-void	ft_somewhat(int n)
+/*void	ft_somewhat(int n)
 {
 	printf("%d\n", n);
 	if (n == 1)
@@ -30,11 +30,11 @@ void	ft_somewhat(int n)
 	else
 		ft_somewhat(n - 1);
 	return ;
-}
+}*/
 
 int		main()
 {
-	ft_somewhat(10);
+	ft_from_n_to_1(10);
 	return 0;
 }
 
